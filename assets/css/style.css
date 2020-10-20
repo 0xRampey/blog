@@ -453,6 +453,14 @@ table td { background-color: #121212; border-color: #333333; color: rgba(255, 25
 
 canvas { filter: invert(100%); }
 
+.site-header { font-family: 'IBM Plex Mono', monospace; border: none; }
+
+.site-header a:hover { color: rgba(255, 255, 255, 0.69) !important; text-decoration: none !important; }
+
+.page-content { font-family: 'Roboto Mono', monospace !important; }
+
+.site-footer { font-family: 'IBM Plex Mono', monospace; border: none; }
+
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
