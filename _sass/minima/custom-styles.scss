@@ -19,15 +19,18 @@
     text-decoration: none !important;
 }
 
-.page-content {
+.home {
     font-family: 'Roboto Mono', monospace !important;
+}
+
+.page-content {
+    font-family: 'Roboto', sans-serif;
 }
 
 .site-footer {
     font-family: 'IBM Plex Mono', monospace;
     border: none;
 }
-
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
