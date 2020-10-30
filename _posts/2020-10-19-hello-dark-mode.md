@@ -1,5 +1,5 @@
 ---
-title: "Hello dark mode, my old friend...I've come to need you yet again."
+title: "Hello dark mode, my old friend...I've come to talk with you again"
 description: "Dark mode theme for fastpages"
 layout: post
 toc: false
@@ -19,9 +19,9 @@ However, being a long time user of the [Dark Reader](https://darkreader.org/) br
 
 ![]({{ site.baseurl }}/images/dark-side.gif)
 
-I also need not explain to you the benefits of having dark mode enabled *unless* you masochistically enjoy straining your eyes with bright light. For someone who spends a good part of the day stuck behind a screen, I'd like to save my eyes for physical reality.
+I also need not explain to you the benefits of having dark mode enabled *unless* you masochistically enjoy straining your eyes with bright light. For someone who spends a good part of the day stuck behind a screen, I'd like to save my eyes for other things like squinting at sign boards and being able to identify people until they're only 6 feet away.
 
-Since I have not dabbled in designing dark mode experiences before, I plan to keep this process simple and understandable. We shall be using a bunch of simple css rules while (mostly) following Material Design dark theme [guidelines](https://material.io/design/color/dark-theme.html).
+Since I have not dabbled in designing dark mode experiences before, I plan to keep this process simple and understandable. We shall be using a bunch of simple css rules while following Material Design dark theme [guidelines](https://material.io/design/color/dark-theme.html) (mostly).
 
 Here's the sample fastpages sample blog [post](https://fastpages.fast.ai/jupyter/2020/02/20/test.html) without Dark mode: 
 
@@ -69,10 +69,10 @@ The palette can be easily customized to support your own favorite dark colour!
 
 # The little things that matter
 
-The rest of the stylesheet is more or less straightforward with colouring for post content and titles. Here are some additional quirks that I thought were cool:
+The rest of the stylesheet is more or less straightforward. Here are some additional quirks that I thought were cool:
 
-Don't forget to turn over your faithful scrollbar to the dark side.
-
+- Don't forget to turn over your faithful scrollbar to the dark side  
+  
 ```scss
 * {
     scrollbar-color: $dark-grey $overlay-light;
@@ -83,8 +83,8 @@ Don't forget to turn over your faithful scrollbar to the dark side.
 ![]({{ site.baseurl }}/images/scrollbars.png)
 
 
-You can also invert the colour of your charts and plots to keep that dark consistency going.
-
+- You can also invert the colour of your charts and plots to keep that dark consistency going.  
+  
 ```scss
 canvas {
     filter: invert(100%);
@@ -96,14 +96,24 @@ canvas {
 > Psst, Check out the dark graphs in action [here](http://prudhvirampey.com/new_blog/jupyter/2020/02/20/test.html#Example-1:-DropDown).
 
 
-Alert messages already use desaturated colours (dull) so I just reduced their brightness to reduce the pop.
+- We also got some dark ass tables babyyy  
 
 ```scss
-.flash {
-    color: $dark-grey !important;
-    filter: brightness(80%);
+table th{
+    background-color: $overlay;
+    border-color: $overlay-light;
+    color: $high-emph;
+}
+
+table td{
+    background-color: $dark-grey;
+    border-color: $overlay-light;
+    color: $med-emph;
 }
 ```
+
+![]({{ site.baseurl }}/images/light-dark-tables.png "Let there be shiny data")
+
 
 # Show me the money(code)
 
