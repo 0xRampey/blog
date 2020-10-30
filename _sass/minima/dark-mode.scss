@@ -1,19 +1,12 @@
 $high-emph: rgba(white, 0.87);
 $med-emph: rgba(white, 0.69); //Noicee
 $low-emph: rgba(white, 0.38);
-$dark-grey : #121212;
+$dark-grey : #121212; 
+// $dark-grey : #1F1B24;
 $overlay: mix($dark-grey, white, 95%);
 $overlay-light: mix($dark-grey, white, 86%);
 
-// $error: mix(#CF6679, white, 60%);
-// $warn: mix(#FFDE03, white, 60%);
-
-//#181a1b this is what dark reader uses
-
-//TODO: - Setup references and footnotes from OneTab. Check if Notion supports this
-//TODO: - Header border should be made slimmer 
 //TODO: - Link clashes with flash message colour
-//TODO: - Mobile site hamburger menu needs some custom tuning
 
 html, body, input, textarea, select, button {   
   color: $high-emph !important;
@@ -32,14 +25,18 @@ a:hover {
     color: $high-emph !important;
 }
 
+.site-nav {
+    background-color: $dark-grey;
+    border-color: $overlay-light;
+}
+
 * {
     scrollbar-color: $dark-grey $overlay-light;
 }
 
 pre, code {
-    // THis has a lighter colour to highlight short code words
+    // Lighter colour to better highlight short code words
     border-color: $overlay-light;
-    //background-color: rgb(21, 23, 24);
     background-color: $overlay;
 }
 
@@ -77,54 +74,11 @@ table td{
     color: $med-emph;
 }
 
-// table td{
-//     background-color: $dark-grey;
-//     border-color: $overlay;
-// }
-
 .flash {
     color: $dark-grey !important;
     filter: brightness(80%);
 }
 
-// .flash-error {
-//     //Material dark theme baseline error colour
-//     background-color:$error !important;
-//     // Decrease opacity for text on coloured backgrounds
-//     color: rgba(0,0,0,0.75) !important;
-// }
-
-// .flash-warn {
-//     //Material dark theme baseline error colour
-//     background-color: #FFE082 !important;
-//     // Decrease opacity for text on coloured backgrounds
-//     color: rgba(0,0,0,0.75) !important;
-// }
-
-// .flash-success {
-//     background-color: #E8F5E9 !important;
-//     color: rgba(0,0,0,0.75) !important;
-// }
-
-//No need for alert colors bcoz they were quite desaturated for dark mode.
-
 canvas {
     filter: invert(100%);
 }
-
-// .btn {
-//     filter: invert(90%);
-// }
-
-// Simple inversion
-// :root { 
-//     background-color: #fefefe;
-//     filter: invert(100%);
-//  }
- 
-//  img:not([src*=".svg"]), video {  
-//     filter: invert(100%);
-//  }
- // Videos elements still have inverted colors 
- // Badges are inverted too
- // Limited to invert-based colours
