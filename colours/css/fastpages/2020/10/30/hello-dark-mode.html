@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Hello dark mode, my old friend…I’ve come to talk with you again | Thinking, Slow</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Hello dark mode, my old friend…I’ve come to talk with you again" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Dark mode theme for fastpages" />
+<meta property="og:description" content="Dark mode theme for fastpages" />
+<link rel="canonical" href="https://prampey.github.io/new_blog/colours/css/fastpages/2020/10/30/hello-dark-mode.html" />
+<meta property="og:url" content="https://prampey.github.io/new_blog/colours/css/fastpages/2020/10/30/hello-dark-mode.html" />
+<meta property="og:site_name" content="Thinking, Slow" />
+<meta property="og:image" content="https://prampey.github.io/new_blog/images/chart-preview.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-10-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://prampey.github.io/new_blog/colours/css/fastpages/2020/10/30/hello-dark-mode.html","@type":"BlogPosting","headline":"Hello dark mode, my old friend…I’ve come to talk with you again","dateModified":"2020-10-30T00:00:00-05:00","datePublished":"2020-10-30T00:00:00-05:00","image":"https://prampey.github.io/new_blog/images/chart-preview.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://prampey.github.io/new_blog/colours/css/fastpages/2020/10/30/hello-dark-mode.html"},"description":"Dark mode theme for fastpages","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/new_blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://prampey.github.io/new_blog/feed.xml" title="Thinking, Slow" /><link rel="shortcut icon" type="image/x-icon" href="/new_blog/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+<!-- Nees some of that sweet IBM Plex Mono -->
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/new_blog/">Thinking, Slow</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/new_blog/about/">About Me</a><a class="page-link" href="/new_blog/search/">Search</a><a class="page-link" href="/new_blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Hello dark mode, my old friend...I&#39;ve come to talk with you again</h1><p class="page-description">Dark mode theme for fastpages</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-10-30T00:00:00-05:00" itemprop="datePublished">
+        Oct 30, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/new_blog/categories/#colours">colours</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/new_blog/categories/#css">css</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/new_blog/categories/#fastpages">fastpages</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>This time for my <code class="language-plaintext highlighter-rouge">fastpages</code> blog. <code class="language-plaintext highlighter-rouge">fastpages</code> gets a lot of things right for someone who uses <code class="language-plaintext highlighter-rouge">Jupyter</code> notebooks and wants to get into blogging. Prashanth Rao’s <a href="https://prrao87.github.io/blog/blogging-for-data-scientists/">article</a> does a great job of making the case for that.</p>
+
+<h1 id="but-why">But why?</h1>
+
+<p>However, being a long time user of the <a href="https://darkreader.org/">Dark Reader</a> browser extension, it was unusual to not have widespread dark mode support on many Jekyll themes, one of which <code class="language-plaintext highlighter-rouge">fastpages</code> is built on. Therefore, I decided to bring back the dark mode experience in this post.</p>
+
+<p><img src="/new_blog/images/dark-side.gif" alt="" /></p>
+
+<p>I also need not explain to you the benefits of having dark mode enabled <em>unless</em> you masochistically enjoy straining your eyes with bright light. For someone who spends a good part of the day stuck behind a screen, I’d like to save my eyes for other things like squinting at sign boards and being able to identify people until they’re only 6 feet away.</p>
+
+<p>Since I have not dabbled in designing dark mode experiences before, I plan to keep this process simple and understandable. We shall be using a bunch of simple css rules while following Material Design dark theme <a href="https://material.io/design/color/dark-theme.html">guidelines</a> (mostly).</p>
+
+<p>Here’s the sample fastpages sample blog <a href="https://fastpages.fast.ai/jupyter/2020/02/20/test.html">post</a> without Dark mode:</p>
+
+<p><img src="/new_blog/images/light-mode.png" alt="" title="Curb your light mode" /></p>
+
+<p>And here’s the <a href="http://prudhvirampey.com/new_blog/jupyter/2020/02/20/test.html">same one</a> with dark mode enabled!</p>
+
+<p><img src="/new_blog/images/dark-mode.png" alt="" /></p>
+
+<p>Pretty cool, yeah? Let’s check out the code now.</p>
+
+<p>If you’re in a hurry to join the dark side, feel free to scroll to the end of this post and download the dark mode stylesheet.</p>
+
+<p>If your curious about the design choices I’ve made and would like to customize for yourself, stick with me here.</p>
+
+<h1 id="colour-palette">Colour palette</h1>
+
+<p>Let’s start with defining our palette.</p>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$high-emph</span><span class="p">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="no">white</span><span class="o">,</span> <span class="m">0</span><span class="mi">.87</span><span class="p">);</span> <span class="c1">// Colour 1 -&gt; White</span>
+<span class="nv">$med-emph</span><span class="p">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="no">white</span><span class="o">,</span> <span class="m">0</span><span class="mi">.69</span><span class="p">);</span> <span class="c1">//Noice</span>
+<span class="nv">$low-emph</span><span class="p">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="no">white</span><span class="o">,</span> <span class="m">0</span><span class="mi">.38</span><span class="p">);</span>
+<span class="nv">$dark-grey</span> <span class="p">:</span> <span class="mh">#121212</span><span class="p">;</span> <span class="c1">// Colour 2</span>
+<span class="nv">$overlay</span><span class="p">:</span> <span class="nf">mix</span><span class="p">(</span><span class="nv">$dark-grey</span><span class="o">,</span> <span class="no">white</span><span class="o">,</span> <span class="m">95%</span><span class="p">);</span>
+<span class="nv">$overlay-light</span><span class="p">:</span> <span class="nf">mix</span><span class="p">(</span><span class="nv">$dark-grey</span><span class="o">,</span> <span class="no">white</span><span class="o">,</span> <span class="m">86%</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>That’s it. Two colours and their shades.</p>
+
+<p><img src="/new_blog/images/palette.svg" alt="" title="From left, dark grey and its shades and then the whites" /></p>
+
+<ul>
+  <li>Baseline <code class="language-plaintext highlighter-rouge">dark-grey</code> theme colour which is recommended by Material design and <em>lighter</em> variants of it for components such as code blocks and tables.</li>
+  <li>Shades of <code class="language-plaintext highlighter-rouge">white</code> for different levels of emphasis of text. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></li>
+</ul>
+
+<p>This also gives us the flexibility to choose <em>our own</em> primary dark color. For eg, if we change the value of <code class="language-plaintext highlighter-rouge">dark-grey</code> to that of something like <code class="language-plaintext highlighter-rouge">deep-purple</code> (<code class="language-plaintext highlighter-rouge">#1F1B24</code>). Voilà, we get the following palette:</p>
+
+<p><img src="/new_blog/images/palette-2.svg" alt="" /></p>
+
+<p>and theme:</p>
+
+<p><img src="/new_blog/images/purple-mode.png" alt="" /></p>
+
+<p>The palette can be easily customized to support your own favorite dark colour!</p>
+
+<h1 id="the-little-things-that-matter">The little things that matter</h1>
+
+<p>The rest of the stylesheet is more or less straightforward. Here are some additional quirks that I thought were cool:</p>
+
+<ul>
+  <li>Don’t forget to turn over your faithful scrollbar to the dark side</li>
+</ul>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">*</span> <span class="p">{</span>
+    <span class="na">scrollbar-color</span><span class="p">:</span> <span class="nv">$dark-grey</span> <span class="nv">$overlay-light</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><img src="/new_blog/images/scrollbars.png" alt="" /></p>
+
+<ul>
+  <li>You can also invert the colour of your charts and plots to keep that dark consistency going.</li>
+</ul>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">canvas</span> <span class="p">{</span>
+    <span class="nl">filter</span><span class="p">:</span> <span class="nf">invert</span><span class="p">(</span><span class="m">100%</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><img src="/new_blog/images/light-dark-viz.png" alt="" title="I like my graphs like I like my chocolate, dark" /></p>
+
+<blockquote>
+  <p>Psst, Check out the dark graphs in action <a href="http://prudhvirampey.com/new_blog/jupyter/2020/02/20/test.html#Example-1:-DropDown">here</a>.</p>
+</blockquote>
+
+<ul>
+  <li>We also got some dark ass tables babyyy</li>
+</ul>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">table</span> <span class="nt">th</span><span class="p">{</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="nv">$overlay</span><span class="p">;</span>
+    <span class="nl">border-color</span><span class="p">:</span> <span class="nv">$overlay-light</span><span class="p">;</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="nv">$high-emph</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">table</span> <span class="nt">td</span><span class="p">{</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="nv">$dark-grey</span><span class="p">;</span>
+    <span class="nl">border-color</span><span class="p">:</span> <span class="nv">$overlay-light</span><span class="p">;</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="nv">$med-emph</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><img src="/new_blog/images/light-dark-tables.png" alt="" title="Let there be shiny data" /></p>
+
+<h1 id="show-me-the-moneycode">Show me the money(code)</h1>
+
+<p>You can get the stylesheet from this Github gist <a href="https://gist.github.com/prampey/aac8f8436827ea09f53a67873142706c">here</a>. Save it to <code class="language-plaintext highlighter-rouge">_sass/minima</code> and add this import line in <code class="language-plaintext highlighter-rouge">custom-styles.scss</code>.</p>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/*-----------------------------------*/</span>
+<span class="cm">/*----- ADD YOUR STYLES BELOW -------*/</span>
+
+<span class="k">@import</span> <span class="s2">"minima/dark-mode"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>That’s it! <code class="language-plaintext highlighter-rouge">fastpages</code> finally has the power of the dark side.</p>
+
+<p>Enjoy ⚡</p>
+
+<h1 id="footnotes">Footnotes</h1>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>More on maintaining text legibility while deciding colour <a href="https://material.io/design/color/text-legibility.html#legibility-standards">here</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://prampey.github.io/new_blog/colours/css/fastpages/2020/10/30/hello-dark-mode.html';
+      this.page.identifier = 'https://prampey.github.io/new_blog/colours/css/fastpages/2020/10/30/hello-dark-mode.html';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://think-slow.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  <a class="u-url" href="/new_blog/colours/css/fastpages/2020/10/30/hello-dark-mode.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/new_blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/new_blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/new_blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Thoughts when I&#39;m building</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/prampey" title="prampey"><svg class="svg-icon grey"><use xlink:href="/new_blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/prampey7" title="prampey7"><svg class="svg-icon grey"><use xlink:href="/new_blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
