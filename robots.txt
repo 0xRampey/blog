@@ -1,1 +1,1 @@
-Sitemap: https://prampey.github.io/new_blog/sitemap.xml
+Sitemap: https://prudhvirampey.com/blog/sitemap.xml
