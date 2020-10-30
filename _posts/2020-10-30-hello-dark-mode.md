@@ -4,9 +4,9 @@ description: "Dark mode theme for fastpages"
 layout: post
 toc: false
 comments: true
-image: images/chart-preview.png
+image: images/dark-side.gif
 hide: false
-search_exclude: true
+search_exclude: false
 categories: [colours, css, fastpages]
 ---
 
