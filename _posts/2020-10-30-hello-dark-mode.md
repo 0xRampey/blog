@@ -1,5 +1,5 @@
 ---
-title: "Hello dark mode, my old friend...I've come to talk with you again"
+title: "Hello dark mode, my old friend..."
 description: "Dark mode theme for fastpages"
 layout: post
 toc: false
@@ -7,11 +7,13 @@ comments: true
 image: images/dark-side.gif
 hide: false
 search_exclude: false
-categories: [colours, css, fastpages]
+categories: [colours, jekyll, css, fastpages]
 ---
 
 
-This time for my `fastpages` blog. `fastpages` gets a lot of things right for someone who uses `Jupyter` notebooks and wants to get into blogging. Prashanth Rao's [article](https://prrao87.github.io/blog/blogging-for-data-scientists/) does a great job of making the case for that.
+I have come to talk with you again, this time for my `fastpages` blog. 
+
+`fastpages` gets a lot of things right for someone who uses `Jupyter` notebooks and wants to get into blogging. Prashanth Rao's [article](https://prrao87.github.io/blog/blogging-for-data-scientists/) does a great job of making the case for that.
 
 # But why?
 
