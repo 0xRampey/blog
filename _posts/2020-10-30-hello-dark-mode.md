@@ -19,7 +19,7 @@ However, being a long time user of the [Dark Reader](https://darkreader.org/) br
 
 ![]({{ site.baseurl }}/images/dark-side.gif)
 
-I also need not explain to you the benefits of having dark mode enabled *unless* you masochistically enjoy straining your eyes with bright light. For someone who spends a good part of the day stuck behind a screen, I'd like to save my eyes for other things like squinting at sign boards and being able to identify people until they're only 6 feet away.
+I personally prefer dark mode to light as it causes lesser strain on the eyes. It also helps illuminate content while the background fades away. For someone who spends a good part of the day stuck behind a screen, I've made it a point to keep the bright light intake for outdoors.
 
 Since I have not dabbled in designing dark mode experiences before, I plan to keep this process simple and understandable. We shall be using a bunch of simple css rules while following Material Design dark theme [guidelines](https://material.io/design/color/dark-theme.html) (mostly).
 
@@ -83,7 +83,7 @@ The rest of the stylesheet is more or less straightforward. Here are some additi
 ![]({{ site.baseurl }}/images/scrollbars.png)
 
 
-- You can also invert the colour of your charts and plots to keep that dark consistency going.  
+- You can invert the colour of your charts and plots to keep that dark consistency going.  
   
 ```scss
 canvas {
@@ -96,16 +96,16 @@ canvas {
 > Psst, Check out the dark graphs in action [here](http://prudhvirampey.com/new_blog/jupyter/2020/02/20/test.html#Example-1:-DropDown).
 
 
-- We also got some dark ass tables babyyy  
+- We also got some dark tables in the house babyy 👾
 
 ```scss
-table th{
+table th {
     background-color: $overlay;
     border-color: $overlay-light;
     color: $high-emph;
 }
 
-table td{
+table td {
     background-color: $dark-grey;
     border-color: $overlay-light;
     color: $med-emph;
@@ -115,7 +115,7 @@ table td{
 ![]({{ site.baseurl }}/images/light-dark-tables.png "Let there be shiny data")
 
 
-# Show me the money(code)
+# Show me the money (code)
 
 You can get the stylesheet from this Github gist [here](https://gist.github.com/prampey/aac8f8436827ea09f53a67873142706c). Save it to `_sass/minima` and add this import line in `custom-styles.scss`.
 
