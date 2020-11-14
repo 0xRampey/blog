@@ -29,7 +29,7 @@ Here's the sample fastpages sample blog [post](https://fastpages.fast.ai/jupyter
 
 ![]({{ site.baseurl }}/images/light-mode.png "Curb your light mode")
 
-And here's the [same one](http://prudhvirampey.com/new_blog/jupyter/2020/02/20/test.html) with dark mode enabled!
+And here's the [same one](https://prudhvirampey.com/blog/jupyter/2020/02/20/test.html) with dark mode enabled!
 
 ![]({{ site.baseurl }}/images/dark-mode.png)
 
