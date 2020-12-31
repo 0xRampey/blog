@@ -455,6 +455,10 @@ table td { background-color: #121212; border-color: #333333; color: rgba(255, 25
 
 canvas { filter: invert(100%); }
 
+.post-list > li > div { box-shadow: none !important; background-color: #1e1e1e; border: none !important; }
+
+li .post-meta-description { color: rgba(255, 255, 255, 0.69) !important; }
+
 .site-header { font-family: 'IBM Plex Mono', monospace; border: none; }
 
 .site-header a:hover { color: rgba(255, 255, 255, 0.69) !important; text-decoration: none !important; }
