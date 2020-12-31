@@ -84,8 +84,8 @@ canvas {
 }
 
 .post-list > li > div {
+    box-shadow: none !important;
     background-color: $overlay;
-    background-color: inherit;
     border: none !important;
 }
 
