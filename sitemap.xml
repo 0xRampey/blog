@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://prudhvirampey.com/blog/jupyter/2020/02/20/test.html</loc>
+<loc>https://prudhvirampey.com/jupyter/2020/02/20/test.html</loc>
 <lastmod>2020-02-20T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://prudhvirampey.com/blog/colours/jekyll/css/fastpages/2020/10/30/hello-dark-mode.html</loc>
+<loc>https://prudhvirampey.com/colours/jekyll/css/fastpages/2020/10/30/hello-dark-mode.html</loc>
 <lastmod>2020-10-30T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://prudhvirampey.com/blog/about/</loc>
+<loc>https://prudhvirampey.com/about/</loc>
 </url>
 <url>
-<loc>https://prudhvirampey.com/blog/</loc>
+<loc>https://prudhvirampey.com/</loc>
 </url>
 <url>
-<loc>https://prudhvirampey.com/blog/search/</loc>
+<loc>https://prudhvirampey.com/search/</loc>
 </url>
 <url>
-<loc>https://prudhvirampey.com/blog/categories/</loc>
+<loc>https://prudhvirampey.com/categories/</loc>
 </url>
 </urlset>
