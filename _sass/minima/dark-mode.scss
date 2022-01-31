@@ -1,8 +1,9 @@
 $high-emph: rgba(white, 0.87);
 $med-emph: rgba(white, 0.69); //Noicee
 $low-emph: rgba(white, 0.38);
-$dark-grey : #121212; 
-// $dark-grey : #1F1B24;
+// $dark-grey : #121212; // shadow grey
+// $dark-grey : #1F1B24; // deep purple
+$dark-grey: #092E42; // Ocean blue
 $overlay: mix($dark-grey, white, 95%);
 $overlay-light: mix($dark-grey, white, 86%);
 
