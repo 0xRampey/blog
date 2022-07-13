@@ -92,3 +92,13 @@ canvas {
 li .post-meta-description {
     color: $med-emph !important;
 }
+
+.Toast-content {
+    background-color: $overlay;
+    color: $high-emph;
+}
+
+.Toast {
+    box-shadow: none !important;
+    border: none;
+}
