@@ -77,7 +77,11 @@ h6::before {
 } */
 
 a {
-    /* border-bottom: 3px solid var(--darkMaincolor); */
+    color: inherit;
+}
+
+.post-content a {
+    border-bottom: 3px solid var(--darkMaincolor);
     color: inherit;
 }
 

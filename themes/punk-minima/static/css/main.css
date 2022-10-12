@@ -62,7 +62,12 @@ blockquote {
 }
 
 a {
-    /* border-bottom: 3px solid var(--maincolor); */
+    color: inherit;
+    text-decoration: none;
+}
+
+.post-content a {
+    border-bottom: 3px solid var(--maincolor);
     color: inherit;
     text-decoration: none;
 }
