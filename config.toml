@@ -60,9 +60,9 @@ menus = [
 [[extra.social]]
 icon = "github"
 name = "GitHub"
-url = "https://github.com/XXXMrG/archie-zola"
+url = "https://github.com/prampey"
 
 [[extra.social]]
 icon = "twitter"
 name = "Twitter"
-url = "https://github.com/your-name/"
+url = "https://twitter.com/0xRampey"
