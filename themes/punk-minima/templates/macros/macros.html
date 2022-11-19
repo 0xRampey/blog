@@ -9,7 +9,7 @@
         {% for page in pages %}
             <li class="post">
                 <a class="title" href="{{ page.permalink }}">{{ page.title }}</a>
-                <span class="meta">{{ page.date | date(format="%Y-%m-%d") }}</span>
+                <span class="meta">{{ page.date | date(format="%v") }}</span>
             </li>
         {% endfor %}
     </ul>
@@ -27,7 +27,7 @@
                 <a href={{ page.permalink }}>{{page.title}}</a>
             </h1>
 
-            <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+            <time>{{ page.date | date(format="%v") }}</time>
             <span>| {{ page.reading_time }} {{ config.extra.translations[lang][0].read_time }}</span>
             {% if page.extra.author %}
                 <span>| {{extra.translations[lang][0].posted_by }} <a href="{{ page.extra.author.social }}" target="_blank">{{ page.extra.author.name }}</a></span>
@@ -81,7 +81,7 @@
                 {% if page.extra.author %}
                     {{extra.translations[lang][0].posted_by }} <a href="{{ page.extra.author.social }}" target="_blank">{{ page.extra.author.name }}</a>
                 {% endif %}
-                {{ extra.translations[lang][0].posted_on }} {{ page.date | date(format="%Y-%m-%d") }}
+                {{ extra.translations[lang][0].posted_on }} {{ page.date | date(format="%v") }}
 
                 {% if page.draft %}
                     <span class="draft-label">DRAFT</span>
