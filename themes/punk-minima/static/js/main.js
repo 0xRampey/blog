@@ -9,7 +9,7 @@ window.onload = () => {
     var embCSS =
       ".embedim-snow{position: absolute;width: 10px;height: 10px;background: white;border-radius: 50%;margin-top:-10px}";
     var embHTML = "";
-    for (i = 1; i < 200; i++) {
+    for (i = 1; i < 100; i++) {
       embHTML += '<i class="embedim-snow"></i>';
       var rndX = embRand(0, 1000000) * 0.0001,
         rndO = embRand(-100000, 100000) * 0.0001,
@@ -20,7 +20,7 @@ window.onload = () => {
         i +
         "){" +
         "opacity:" +
-        (embRand(1, 10000) * 0.0001).toFixed(2) +
+        (embRand(1, 5000) * 0.0001).toFixed(1) +
         ";" +
         "transform:translate(" +
         rndX.toFixed(2) +
