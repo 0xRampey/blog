@@ -98,7 +98,8 @@ func (d Direction[T]) String() string {
 	}
 }
 ```
-This function will only accept `Direction` with a valid type parameter `T` from `North | South | East | West`. It will not compile if we pass an invalid type to it.  So if we run the below code, it will not compile!
+This function will only accept `Direction` with a valid type parameter `T` from `North | South | East | West`. 
+In fact, we will not even be able to create a new invalid `Direction`. So if we run the below code, it will not compile!
 ```go
 type Midwest struct{}
 
