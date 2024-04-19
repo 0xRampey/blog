@@ -2,4 +2,13 @@
 
 {% block main_content %}
     {{ post_macros::content(page=page, extra=config.extra)}}
+
+<script src="https://utteranc.es/client.js"
+        repo="0xRampey/blog"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
 {% endblock main_content %}
