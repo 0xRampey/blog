@@ -4,7 +4,7 @@ date = "2024-04-16"
 description = "An attempt at building enums with generics in Go"
 
 [taxonomies]
-tags = ["go", "types"]
+tags = ["go", "types", "rust"]
 +++
 
 I've always had some gripes with how `enums` are implemented in Go. They are not treated as first class citizens and are not fully type safe either. This could potentially lead to bugs that are undetectable by the compiler.
