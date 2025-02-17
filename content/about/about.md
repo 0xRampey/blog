@@ -14,4 +14,4 @@ Some things I believe in:
 - Failing gracefully is the key to growth in the gym, in life and in Rust.
 - Users will always follow the path of least cost and most convenience.
 
-During the day, I help developers build software on Ethereum using their favourite language, at [Stackr Labs](https://stf.xyz). In my spare time, I conduct crypto experiments at [Lever Capital](https://github.com/LeverCapital/anon-my-rpc). 
+During the day, I help developers build software on Ethereum using their favourite language, at [Conduit](https://stf.xyz). In my spare time, I conduct crypto experiments at [Lever Capital](https://github.com/LeverCapital/anon-my-rpc). 
